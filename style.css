@@ -1,0 +1,158 @@
+body {
+    background-color: antiquewhite;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: rgb(61, 14, 14);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title-name {
+    font-size: 25pt;
+    margin-top: 7%;
+}
+
+.sutdent {
+    font-size: 26pt;
+    font-weight: 500;
+}
+
+.personal-blurb {
+    font-weight: 500;
+    color: rgb(61, 14, 14);
+    font-size: 20pt;
+    line-height: 41px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(61, 14, 14);
+    margin-top: 70px;
+}
+
+.projects {
+    margin-top: 6.2%;
+    font-size: 25pt;
+}
+
+.hyperlink {
+    font-weight: 500;
+    color: rgb(87, 29, 29);
+    font-size: 20pt;
+    margin-right: 10%;
+    text-decoration: underline;
+    display: block;
+    transition: color 0.3s ease; 
+}
+
+.hyperlink :hover {
+    color: rgb(213, 72, 37);
+    transition: color 0.3s ease; 
+}
+
+a:link, a:visited {
+    color: rgb(61, 14, 14);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: rgb(61, 14, 14);
+    text-decoration: underline; 
+}
+
+.barista-title {
+    margin-top: -3%;
+    font-size: 20pt;
+}
+
+.barista {
+    font-size: 13pt;
+}
+
+.barista-description {
+    font-size: 13pt;
+}
+
+.castle-image img{
+    filter: brightness(1.1);
+    width: 370px;
+    height: 230px;
+    margin-left: 67.5%;
+    display: block;
+    margin-top: -240px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping initially */
+    align-items: flex-start; /* Align items at the start */
+}
+
+@media (max-width: 1325px) {
+    .container {
+        flex-direction: column;
+        align-items: center; /* Center items in column layout */
+    }
+
+    .castle-image img {
+        margin-left: 0; /* Center the image */
+        margin-top: 20px; /* Adjust margin-top to move image below text */
+    }
+
+    .small-bottom {
+        margin-left: -100px;
+    }
+}
+
+.construct-title {
+    font-size: 20pt;
+    margin-top: 5.5%;
+}
+
+.construct {
+    font-size: 13pt;
+}
+
+.construct-description {
+    font-size: 13pt;
+}
+
+.bumper-image img{
+    filter: brightness(1.3);
+    width: 370px;
+    height: 230px;
+    margin-left: 67.5%;
+    display: block;
+    margin-top: -240px;
+}
+
+@media (max-width: 1325px) {
+    .container {
+        flex-direction: column;
+        align-items: center; /* Center items in column layout */
+    }
+
+    .bumper-image img {
+        margin-left: 0; /* Center the image */
+        margin-top: 20px; /* Adjust margin-top to move image below text */
+    }
+}
+
+.small-bottom {
+    border-bottom: 1px solid rgb(61, 14, 14);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+
+.personal-blurb a {
+    color: rgb(87, 29, 29); /* Color for hyperlinks */
+    text-decoration: underline; /* Underline for hyperlinks */
+    font-weight: 500; /* Font weight for hyperlinks */
+    transition: color 0.3s ease; /* Smooth color transition for hover */
+}
+
+.personal-blurb a:hover {
+    color: brown;
+}
+
+.contact-item {
+    margin-right: 80px;
+}
